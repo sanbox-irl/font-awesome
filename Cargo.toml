@@ -3,3 +3,7 @@ name = "font-awesome"
 version = "0.1.0"
 edition = "2018"
 license = "MIT"
+
+description = "A typed manifest of constants of Font Awesome unicode code points"
+repository = "https://github.com/sanbox-irl/font-awesome"
+
