@@ -1007,6 +1007,8 @@ pub const X_RAY: char = '\u{f497}';
 pub const YEN_SIGN: char = '\u{f157}';
 pub const YIN_YANG: char = '\u{f6ad}';
 
+/// Returns an array of every Font Awesome symbol
+/// that this library exports.
 pub const fn symbols() -> [char; 1002] {
     [
         AD,
