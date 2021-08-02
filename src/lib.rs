@@ -1,3 +1,6 @@
+#![no_std]
+#![doc = include_str!("../README.md")]
+
 pub const MINIMUM_CODEPOINT: usize = 0xe005;
 pub const MAXIMUM_CODEPOINT: usize = 0xf8ff;
 
@@ -1004,7 +1007,7 @@ pub const X_RAY: char = '\u{f497}';
 pub const YEN_SIGN: char = '\u{f157}';
 pub const YIN_YANG: char = '\u{f6ad}';
 
-pub fn symbols() -> [char; 1002] {
+pub const fn symbols() -> [char; 1002] {
     [
         AD,
         ADDRESS_BOOK,
